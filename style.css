@@ -1,0 +1,318 @@
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border: solid 15px #000000;
+    height: 100%;
+    color: #000000;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+p {
+    margin: .85em 0;
+}
+a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 3.4;
+    letter-spacing: 1.2px;
+    color: #f13c6b;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #f13c6cbd;
+}
+
+li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+li > a {
+    letter-spacing: 2.43px;
+    display: block;
+    color: black;
+}
+
+li.active > a {
+    color: #f13c6b;
+    background: url(http://abistumvoll.com/wp-content/uploads/2016/04/Pink_Squiggle@2x.png) bottom center no-repeat;
+    background-size: 25px;
+    background-position: 50% 80%;
+}
+
+li.menu-item {
+    z-index: 1599;
+}
+
+ul#menu-main-1 {
+    padding-left: 0px;
+}
+.clearfix {
+    overflow: auto;
+}
+
+.container {
+    min-width: 1200px!important;
+    max-width: 1200px!important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    padding: 0px 16px;
+    background: white;
+    color: black;
+    text-align: center;
+    z-index: 500;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 77%
+}
+
+.sticky + .container {
+    padding-top: 120px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.home-header {
+    font-family: Oswald;
+    font-size: 120px;
+    font-weight: 600;
+    letter-spacing: 11.4px;
+    color: #000000!important;
+    text-align: center;
+    /* padding-top: 48.38%; */
+    margin-top: 0px;
+    margin-bottom: 300px;
+}
+
+.sub-header {
+    font-family: Montserrat;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+    color: #000000!important;
+    margin-top: 13.38%;
+    font-weight: 700;
+}
+
+.header-vertical {
+    font-family: Bebas;
+    font-size: 120px;
+    letter-spacing: 11.4px;
+    color: #000000!important;
+    margin-top: 20%;
+    margin-left: 9.47%;
+    margin-bottom: 11%;
+    line-height: 7.98%;
+}
+
+.logo-wrapper {
+    margin-left: -15px;
+}
+
+.logo {
+    width: 15.7%;
+    height: 4.8%;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.box-divider img {
+    margin-top: 1.04%;
+    margin-bottom: 4.38%;
+    width: 6.19%;
+    height: 0.25%;
+}
+
+.paragraph {
+    padding-right: 2.2%;
+    font-family: Georgia;
+    font-size: 13px !important;
+    line-height: 2.1;
+    color: #000000;
+}
+
+.read-more a {
+    font-size: 11px;
+    letter-spacing: 1.3px;
+}
+
+span.right-arrow {
+    padding-left: 7px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    margin-top: -4px;
+    vertical-align: middle;
+    width: 29px;
+}
+.arrow {
+    width: 1%;
+    height: 5.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.8%;
+    margin-bottom: -2.1%;
+}
+
+#abi-pic-1 {
+    width: 46.3%;
+    height: 31.89%;
+    object-fit: contain;
+    margin-left: 9.8%;
+}
+
+.float-left {
+    float: left;
+}
+
+.box {
+    border: 4px solid #000;
+}
+
+.box-full {
+    width: 100%;
+}
+
+.box-left {
+    padding-top: 4.16%;
+}
+
+.box-right {
+    margin-bottom: 8%;
+    width: 85%;
+}
+
+#box-1 {
+    margin-top: 5%;
+    margin-left: -13.41%;
+    position: relative;
+    z-index: 3;
+    width: 41.32%;
+    height: 30.83%;
+}
+
+#box-1-left {
+    width: 22.72%;
+}
+
+#box-1-right {
+    width: 90%;
+}
+
+#box-2 {
+    width: 40.11%;
+    height: 31.80%;
+    margin-left: 2.25%;
+    margin-top: -0.32%;
+}
+
+#image-2 {
+    margin-left: 34%;
+    margin-top: -2%;
+    z-index: 2;
+    position: relative;
+    width: 22.15%;
+    height: 15.27%;
+    object-fit: contain;
+}
+
+#image-2 img {
+    width: 100%;
+    position: relative;
+}
+
+#image-3 {
+    width: 51.05%;
+    height: 31.80%;
+    object-fit: contain;
+    margin-left: 42.7%;
+    position: relative;
+    z-index: 1;
+    margin-top: -27%;
+}
+
+#image-4 {
+    width: 34.30%;
+    height: 22.08%;
+    object-fit: contain;
+    margin-left: 16.59%;
+    position: relative;
+    z-index: 2;
+    margin-top: -5%;
+}
+
+#image-5 {
+    width: 18.75%;
+    height: 14.23%;
+    object-fit: contain;
+    margin-left: 24.07%;
+    position: relative;
+    z-index: 2;
+    margin-top: 10%;
+}
+
+#image-6 {
+    width: 62%;
+    height: 34.72%;
+    object-fit: contain;
+    margin-left: 0%;
+    position: relative;
+    z-index: 0;
+    margin-top: -25.5%;
+}
+
+#box-3 {
+    width: 34.70%;
+    height: 35.27%;
+    margin-left: 50.83%;
+    margin-top: -7.22%;
+    position: relative;
+    z-index: 1;
+    padding-left: 1.04%;
+}
+
+#box-4 {
+    width: 35.3%;
+    height: 31.94%;
+    margin-left: 12.79%;
+    margin-right: 0%;
+    margin-top: 5%;
+    position: relative;
+    z-index: 1;
+    padding-left: 1.04%;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.footerText {
+    color: white;
+    text-align: center;
+}
